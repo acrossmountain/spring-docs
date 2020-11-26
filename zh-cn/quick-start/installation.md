@@ -2,8 +2,8 @@
 
 ## 环境要求
 
-- GO >= 1.12
-- 开启 go module
+- Go >= 1.12
+- 开启 Go module
 
 ## 安装 Go-Spring
 ```
