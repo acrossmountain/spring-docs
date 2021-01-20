@@ -14,3 +14,7 @@
   * [spring-logger](zh-cn/module/spring-logger.md)
   * [spring-utils](zh-cn/module/spring-utils.md)
   * [spring-test](zh-cn/module/spring-test.md)
+
+* WEB模块
+  * [spring-gin](zh-cn/web/spring-gin.md)
+  * [spring-echo](zh-cn/web/spring-echo.md)
