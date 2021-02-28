@@ -6,8 +6,10 @@
 package main
 
 import (
-	"github.com/go-spring/go-spring/spring-boot"
-	_ "github.com/go-spring/go-spring/starter-echo"
+	"context"
+
+	"github.com/go-spring/spring-boot"
+	_ "github.com/go-spring/starter-echo"
 )
 
 func init() {
@@ -20,7 +22,10 @@ type Echo struct {
 	GoPath string `value:"${GOPATH}"`
 }
 
-func (e *Echo) Call() string {
+type request struct {
+}
+
+func (e *Echo) Call(ctx context.Context, req *request) string {
 	return e.GoPath
 }
 
