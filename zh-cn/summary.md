@@ -1,6 +1,7 @@
 * 前言
 
   * [项目介绍](zh-cn/README.md)
+  * [包名规则解释](zh-cn/pack-name.md)
 
 * 快速入门
 
